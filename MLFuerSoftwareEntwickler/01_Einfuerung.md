@@ -28,7 +28,7 @@ Das Spiel muss kein komplexes Ziel sein, es kann darin bestehen, einen Ball in e
 
 In dem das Programm sehr viele Befehle ausführt, kommt es langsam dahinter, welche Aneinanderreihung von Befehlen dem Ziel näher kamen und welche nicht. Irgendwann entsteht dann eine Befehlsfolge, die zum Ziel führt und das Programm hat die Regeln des Spiels "verstanden", in dem es durch Anwendung er der erlernten Spielzüge das Spiel und eventuell jede Spielrunde gewinnt.
 
-Das prominenstes Beispiel ist sicherlich AlfaGo, das in einem aufseheneregenden Turnier gegen den besten Go-Spieler der Welt Lee Sedol von 5 Spielen im Jahr 2016 vier Spiele und damit das Turnier gewonnen hatte. AlfaGo verwendete dafür unter anderem verstärkendes Lernen.
+Das prominenteste Beispiel ist sicherlich AlfaGo, das in einem aufseheneregenden Turnier gegen den besten Go-Spieler der Welt Lee Sedol von 5 Spielen im Jahr 2016 vier Spiele und damit das Turnier gewonnen hatte. AlfaGo verwendete dafür unter anderem verstärkendes Lernen.
 
-Ein sehr nettes und anschauliches Beispiel sind die "Abendteuer von Albert". Albert ist eine Spielfigur von AI Warehouse, die einfache Fähigkeiten wie 
+Ein sehr nettes und anschauliches Beispiel sind die "Abenteuer von Albert". Albert ist eine Spielfigur von AI Warehouse, die einfache Fähigkeiten wie 
 
