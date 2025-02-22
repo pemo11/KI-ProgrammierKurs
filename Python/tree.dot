@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Gewicht <= 55.0\ngini = 0.5\nsamples = 8\nvalue = [4, 4]\nclass = Frau", fillcolor="#ffffff"] ;
+1 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]\nclass = Mann", fillcolor="#399de5"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Größe <= 165.0\ngini = 0.49\nsamples = 7\nvalue = [4, 3]\nclass = Frau", fillcolor="#f8e0ce"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]\nclass = Frau", fillcolor="#e58139"] ;
+2 -> 3 ;
+4 [label="Gewicht <= 65.0\ngini = 0.5\nsamples = 6\nvalue = [3, 3]\nclass = Frau", fillcolor="#ffffff"] ;
+2 -> 4 ;
+5 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]\nclass = Mann", fillcolor="#399de5"] ;
+4 -> 5 ;
+6 [label="Gewicht <= 85.0\ngini = 0.48\nsamples = 5\nvalue = [3, 2]\nclass = Frau", fillcolor="#f6d5bd"] ;
+4 -> 6 ;
+7 [label="Größe <= 175.0\ngini = 0.5\nsamples = 4\nvalue = [2, 2]\nclass = Frau", fillcolor="#ffffff"] ;
+6 -> 7 ;
+8 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]\nclass = Frau", fillcolor="#e58139"] ;
+7 -> 8 ;
+9 [label="Größe <= 185.0\ngini = 0.444\nsamples = 3\nvalue = [1, 2]\nclass = Mann", fillcolor="#9ccef2"] ;
+7 -> 9 ;
+10 [label="Gewicht <= 75.0\ngini = 0.5\nsamples = 2\nvalue = [1, 1]\nclass = Frau", fillcolor="#ffffff"] ;
+9 -> 10 ;
+11 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]\nclass = Mann", fillcolor="#399de5"] ;
+10 -> 11 ;
+12 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]\nclass = Frau", fillcolor="#e58139"] ;
+10 -> 12 ;
+13 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]\nclass = Mann", fillcolor="#399de5"] ;
+9 -> 13 ;
+14 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]\nclass = Frau", fillcolor="#e58139"] ;
+6 -> 14 ;
+}
