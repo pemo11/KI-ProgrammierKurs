@@ -1,0 +1,13 @@
+sequence_length: 5
+embedding_dim: 50
+lstm_units: 100
+learning_rate: 0.001
+batch_size: 32
+epochs: 50
+min_count: 1
+validation_split: 0.1
+patience: 3
+use_early_stopping: false
+text_file: AlicesImWunderland.txt
+model_file: SimpelLSTM.h5
+vocab_file: SimpelLSTM_vocab.json

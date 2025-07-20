@@ -1,2 +1,8 @@
 # .env-Datei nicht pushen
 .env
+*.jpg
+*.JPG
+*.jpeg
+/images/
+*metadata.json*
+.DS_Store
